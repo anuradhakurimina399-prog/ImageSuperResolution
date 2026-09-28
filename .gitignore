@@ -1,0 +1,37 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local secrets and environment files
+.env
+.streamlit/secrets.toml
+
+# Model checkpoints and generated output
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+weights/
+results/
+outputs/
+
+# Nested upstream clone; installed from requirements.txt instead
+/Real-ESRGAN/
+
+# Build artifacts and OS files
+build/
+dist/
+*.egg-info/
+*.log
+.DS_Store
+Thumbs.db
